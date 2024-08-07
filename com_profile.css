@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: #f0f2f5;
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.topnav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ff6c37;
+  padding: 13px 1%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.450);
+  position: sticky;
+  top: 0;
+}
+
+.topnav-left {
+  flex-basis: 50%;
+  display: flex;
+}
+
+.topnav-left img{
+  height: 40px;
+  width: 320px;
+}
+
+.topnav-right{
+  flex-basis: 50%;
+  text-align: right;
+}
+
+.topnav-right ul{
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.topnav-right ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+.topnav-right ul li a{
+  padding: 10px 20px;
+  border-radius:5px;
+  color: #FFF;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.topnav-right ul li a:hover:not(.active){
+  color:#000 !important;
+  background-color: rgba(255, 255, 255);
+}
+
+.active{
+  cursor: default;
+  color:#000 !important;
+  background-color: rgba(255, 255, 255);
+}
+
+.center {
+margin: auto;
+width:60%;
+height: auto;
+border-radius: 5px;
+
+display: flex;
+
+}
+.Left{
+    height: auto;
+    width: 40%;
+    background-color: #086892;
+    padding-bottom: 30px;
+    
+
+}
+.Right{
+    height: auto;
+    width: 75%;
+}
+.Left p{
+    color: white;
+}
+.Resume_pic {
+padding-top: 15px;
+text-align: center;
+}
+
+.Resume_pic img {
+display: block;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+margin: 0 auto;
+}
+
+.Res_Email {
+display: flex;
+align-items: center;
+margin-top: 10px;
+width: 35%;
+word-wrap: break-word;
+}
+.Res_Email i{
+    padding-left: 20px;
+    color: white;
+
+    
+}
+.Res_Linkedin {
+display: flex;
+align-items: center;
+margin-top: 10px;
+width: 35%;
+word-wrap: break-word;
+}
+.Res_Linkedin i{
+    padding-left: 20px;
+    color: white;
+
+    
+}
+
+.Res_Email p{
+    padding-left: 10px;
+    
+}
+.Res_Linkedin p{
+    margin-right: 10px;
+    padding-left: 10px;
+    
+}
+.Email {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 30px;
+    margin-left: 2px;
+    text-align: left;
+
+}
+.Tech_skills li{
+    padding-left: 30px;
+    color: white;
+}
+.Programming_Languages li{
+    padding-left: 30px;
+    color: white;
+}
+.Tools li{
+    padding-left: 30px;
+    color: white;
+}
+.Right h4{
+    color: #086892;
+}
+.Internships li{
+    padding-left: 30px;
+}
+.Projects li{
+    padding-left: 30px;
+}
+.Certificates li{
+    padding-left: 30px;
+}
+.Res_Name p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff864a;
+}
+
+.container {
+    width: 30%;
+    text-align: center;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    row-gap: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container img{
+    height: 30px;
+    width: 240px;
+}
+
+.container p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.email label{
+    width: 75px;
+    font-size: 18px;
+}
+
+.email input[type="email"]{
+    width: 250px;
+    height: 30px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.email button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #ff6c37;
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.100);
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.password label{
+    width: 115px;
+    font-size: 18px;
+}
+
+.password input[type="password"]{
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.password button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #ff6c37;
+    height: 30px;
+    width: 92px;
+    font-size: 18px;
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.100);
+}

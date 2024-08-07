@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: #f0f2f5;
+  height: 100%;
+}
+
+.topnav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ff6c37;
+  padding: 13px 1%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.450);
+  position: sticky;
+  top: 0;
+}
+
+.topnav-left {
+  flex-basis: 50%;
+  display: flex;
+}
+
+.topnav-left img{
+  height: 40px;
+  width: 320px;
+}
+
+.topnav-right{
+  flex-basis: 50%;
+  text-align: right;
+}
+
+.topnav-right ul{
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.topnav-right ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+.topnav-right ul li a{
+  padding: 10px 20px;
+  border-radius:5px;
+  color: #FFF;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.topnav-right ul li a:hover:not(.active){
+  color:#000 !important;
+  background-color: rgba(255, 255, 255);
+}
+
+.active{
+  cursor: default;
+  color:#000 !important;
+  background-color: rgba(255, 255, 255);
+}
+
+.center {
+    margin: 30px auto;
+    width:60%;
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+}
+
+.Left{
+    height: 100%;
+    width: 40%;
+    background-color: #086892;
+}
+
+.Left p{
+    color: white;
+}
+
+.Resume_pic {
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.Resume_pic img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.Res_Name p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.des{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.ides{
+    padding: 3px 10px;
+    display: flex;
+}
+
+.ides p{
+    word-wrap: break-word;
+    hyphens: auto;
+    width: 100%;
+}
+
+.ides i{
+    color: white;
+    padding-right: 10px;
+}
+
+.Tech_skills li{
+    padding-left: 30px;
+    color: white;
+}
+
+.Programming_Languages li{
+    padding-left: 30px;
+    color: white;
+}
+
+.Tools li{
+    padding-left: 30px;
+    color: white;
+}
+
+.Right{
+    height: 100%;
+    width: 75%;
+    padding: 20px 10px;
+}
+
+.Right h4{
+    color: #086892;
+}
+
+.Internships li{
+    padding-left: 30px;
+}
+
+.Projects li{
+    padding-left: 30px;
+}
+
+.Certificates li{
+    padding-left: 30px;
+}

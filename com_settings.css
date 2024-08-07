@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: #f0f2f5;
+  height: 100%;
+  overflow: hidden;
+}
+
+.topnav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ff6c37;
+  padding: 13px 1%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.450);
+  position: sticky;
+  top: 0;
+}
+
+.topnav-left {
+  flex-basis: 50%;
+  display: flex;
+}
+
+.topnav-left img{
+  height: 40px;
+  width: 320px;
+}
+
+.topnav-right{
+  flex-basis: 50%;
+  text-align: right;
+}
+
+.topnav-right ul{
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.topnav-right ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+.topnav-right ul li a{
+  padding: 10px 20px;
+  border-radius:5px;
+  color: #FFF;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.topnav-right ul li a:hover:not(.active){
+  color:#000 !important;
+  background-color: rgba(255, 255, 255);
+}
+
+.active{
+  cursor: default;
+  color:#000 !important;
+  background-color: rgba(255, 255, 255);
+}
+
+.content{
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+}
+
+.container{
+    background-color: #FFF;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.200);
+    border-radius: 10px;
+    margin-top: 5%;
+    padding: 25px;
+    width: 30%;
+    height: 490px;
+}
+
+.image-container{
+    margin: 0 auto 3%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details{
+    text-align: center;
+}
+
+.password{
+    margin: 15px auto 5px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.password label{
+    font-size: 16px;
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+}
+
+.password input[type="password"]{
+    width: 45%;
+    height: 30px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.password button{
+    cursor: pointer;
+    color: #FFF;
+    background-color: #ff6c37;
+    height: 30px;
+    width: 35%;
+    margin: 6px auto 12px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.100);
+}
+
+.buttons{
+    text-align: center;
+}
+
+.but1{
+    background-color: #42ab00;
+}
+
+.but2{
+    background-color: #d50000;
+}
+
+.but1, .but2{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+    text-decoration: none;
+    color: #FFF;
+    width: 30%;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    margin: 0 2px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.100);
+}
